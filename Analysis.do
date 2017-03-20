@@ -39,6 +39,8 @@ save Growth_survey, replace
 use cgss2006, replace
 merge m:1 province using Growth_survey, gen(_merge_growth) force
 save cgss2006_merged, replace
+
+
 ********************************************************************************
 *important (the followings are from cgss2005, now I'm using cgss2006)
 *qs2a: province, -9901 missing data
@@ -679,19 +681,6 @@ outreg2 using table3, excel append
 
 
 
-
-. gsem (Trust_gov -> trustgov_house, ) (Trust_gov -> trustgov_stock, ) (Trust_gov -> trustgov_corruption, ) (Trust_gov -> trustgov_ineq, ) (Trust_gov -> trustgov_employ, ) ///
-(Trust_gov -> trustgov_security, ) (Trust_gov -> trustgov_mine, ) (retro_eco -> Trust_gov, ) (ret
-> ro_eco -> retro_income, ) (retro_eco -> retro_asset, ) (retro_eco -> retro_position, ) (r
-> etro_eco -> retro_wkcondition, ) (retro_eco -> retro_class, ) (pro_econ -> Trust_gov, ) (
-> pro_econ -> pro_income, ) (pro_econ -> pro_asset, ) (pro_econ -> pro_position, ) (pro_eco
-> n -> pro_wkcondition, ) (pro_econ -> pro_class, ) (pro_econ -> pro_family_condition, ) (p
-> arty -> Trust_gov, ) (gender -> Trust_gov, ) (life_satis -> Trust_gov, ) (M1[province] ->
->  party, family(bernoulli) link(logit)) (M1[province] -> gender, family(bernoulli) link(lo
-> git)) (M1[province] -> life_satis, family(ordinal) link(logit)) (M1[province] -> ave_grow
-> th_3, ) (M1[province] -> ave_growth_5, ) (M1[province] -> ave_growth_10, ) [pweight = wei
-> ght], covstruct(_lexogenous, diagonal) latent(Trust_gov retro_eco pro_econ M1 ) cov( retr
-> o_eco*pro_econ) nocapslatent
 
 
 
