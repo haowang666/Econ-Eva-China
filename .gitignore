@@ -24,7 +24,7 @@
 *.R
 *.nav
 *.snm
-
+*.gz
 
 # ignore my old files and other irrelevant directories
 1-old-material*
