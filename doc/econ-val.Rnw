@@ -7,6 +7,7 @@
 \usepackage{setspace}
 \usepackage{amsfonts}
 \usepackage{caption}
+\usepackage{color}
 \usepackage{threeparttable}
 \usepackage[abbr]{harvard}
 \usepackage{multirow}
@@ -15,6 +16,8 @@
 \usepackage{lscape}
 \usepackage{float}
 \usepackage{subfigure}
+\usepackage{mathpazo}
+\usepackage{natbib}
 %\doublespacing
 
 
@@ -58,7 +61,9 @@ Stable authoritarian ruling accompanied by rapid economic growth makes China a u
 
 According to Modernization theory (Lipset 1959, 1993), economic growth will foster urbanization, industrialization, increasing levels of education and income, and as a result it will increase political participation and demand for democracy. Although the mechanism is challenged by Przeworski and Limongi (1997), still there is a general pattern between economic modernization and democracy. Since economic development not only changed Chinese citizen's physical well-beings but also cognitive ideas, it is worthwhile to test the relation between economic development and political attitudes towards a nondemocratic government (Zhai 2015).
 
-On the other hand, retrospective evaluation theory holds that citizens value the economic performance of the government and vote accordingly (Lewis-Beck and Stegmaier 2000).  Although previous economic voting studies are based on democratic elections, there is no significant reason that citizens living in authoritarian countries would NOT value government performance. In fact, Lewis-beck et al. (2014) show that the vote-popularity function can be applied to nondemocratic settings like China. Therefore, instead of the negative relationship between economic development and demand for democracy; retrospective evaluation theory holds that good government performance will yield solid political support.
+On the other hand, retrospective evaluation theory holds that citizens value the economic performance of the government and
+vote accordingly (Lewis-Beck and Stegmaier 2000).  Although previous economic voting studies are based on democratic elections, there is no significant reason that citizens living in authoritarian countries would NOT value government performance. 
+In fact, Lewis-beck et al. (2014) show that the vote-popularity function can be applied to nondemocratic settings like China. Therefore, instead of the negative relationship between economic development and demand for democracy; retrospective evaluation theory holds that good government performance will yield solid political support.
 
 
 ??Two different sets of stories here: relative deprivation?? MLM
@@ -70,7 +75,7 @@ On the other hand, retrospective evaluation theory holds that citizens value the
  
 
 
-
+\cite{YangChen2013} \citet{YangChen2013}
 
  
 \nocite{HolbigGilley2010,YangChen2013,ChenDickson2008,Zhai2015,Lipset1993,Lipset1959,Lewis-Beck2000,Pan2015,Wallace2016}
@@ -464,8 +469,8 @@ Another issue here is the possible self-censorship problem in surveys like CGSS.
 
 
 \newpage
-\bibliography{D:/Dropbox/Bibliography-database/Haowang}
-%\bibliography{~/Dropbox/Bibliography-database/Haowang}
+%\bibliography{D:/Dropbox/Bibliography-database/Haowang}
+\bibliography{~/Dropbox/Bibliography-database/Haowang}
 %\bibliography{Haowang}
 \bibliographystyle{apsr}
 
