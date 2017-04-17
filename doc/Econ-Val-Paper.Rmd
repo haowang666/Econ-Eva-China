@@ -6,15 +6,12 @@ output:
     keep_tex: false
     fig_caption: true
     latex_engine: pdflatex
-title: "Institutional Constraints and Fiscal Policy Stability"
+title: "Evaluating Political Support in Authoritarian Regimes: evidence from China"
 author: 
 - Hao Wang
 - Arizona State University
- 
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-
-
-abstract: "This manuscript tests two competing hypotheses of economic growth, performance evaluation and political support. According to the economic explanation of modernization theory, rapid economic growth fosters income inequality, and the poor will then demand political reform and redistribution of wealth. On the other hand, the cultural approach of modernization argues that socio-economic development changes value systems and people's ability to think critically. As a result, those people with higher levels of cognitive ability and political awareness will favor democracy in a authoritarian context. Meanwhile, Economic Voting literature argue that people value government's socio-economic performance, consequently they will support/oppose the incumbent government based on their evaluation. This study uses a general opinion survey in China to test these two competing hypotheses. My results show that cultural modernization mechanism is robust in all models."
+abstract: " This manuscript checks two mechanisms of political support in China. Redistribution literature argues that income inequlity, especially relative deprivation will increase the demand for political reform and redistribution in an authoritarian country [@Acemoglu2013 @Yitzhaki1979]. On the other hand, socio-economic development changes value systems and people's ability to think critically. As a result, those people with higher levels of cognitive ability and political awareness will favor democracy in an authoritarian context [@Crokeetal2016]. This leads to a different prediction of with the accountability literature: which predicts that citizens will reward the government if the economy is good [@Anderson2000]. Considering China's recent rapid economic growth, can Chinese government circumvent demand for liberalization due to the economic performance? This study uses a national opinion survey in China to test these mechanisms."
 geometry: margin=1in
 fontfamily: mathpazo
 fontsize: 12pt
@@ -23,6 +20,7 @@ papersize: letter
 bibliography: D:/Dropbox/bib/Haowang.bib
 biblio-style: apsr
 citecolor: blue
+header-includes: \usepackage{graphicx, longtable, float, subfigure}
 ---
 
 **Key Words**: Political Support, Economic Growth, Government Performance, China
@@ -36,33 +34,34 @@ citecolor: blue
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Since the Reform and Opening policy in 1978, China has undergone remarkably changes in economy, social structures and political structures. According to World Bank, China's GDP per capita increases from 154.97 USD in 1978 to 6807.43 USD in 2013, and World Bank has classified China as a middle income country. Dramatically changes in economic development secures Chinese Communist Party's (CCP) dominance in the post-Mao era [@HolbigGilley2010], many Chinese citizens express "special gratitude" to CCP for the remarkable increase of economy as well as their living standards. On the other hand, CCP justifies the authoritarian rule as "the only possible and correct path" for Chinese people's sake, "Western Democracies are not suitable in China" [@YangChen2013 @Pei2012].
+Since the Reform and Opening policy in 1978, China has undergone remarkably changes in economy, social structures and political structures. According to World Bank, China's GDP per capita increases from 154.97 USD in 1978 to 6807.43 USD in 2013, and World Bank has classified China as a middle income country. Dramatically changes in economic development secures Chinese Communist Party's (CCP) dominance in the post-Mao era [@HolbigGilley2010], many Chinese citizens express "special gratitude" to CCP for the remarkable increase of economy as well as their living standards [@Pei2012]. On the other hand, CCP justifies the authoritarian rule as "the only possible and correct path" for Chinese people's sake, "Western Democracies are not suitable in China" [@YangChen2013].
 
 Stable authoritarian ruling accompanied by rapid economic growth makes China a unique case in comparative politics. On one hand, economic development have dramatically shifted people's lifestyles: ordinary citizens can now afford modern appliances such as TV sets, computers, washing machines, automobiles etc., and many Chinese families can even send their children abroad for better education. Many scholars thus conclude that Chinese people are in favor of the strong nondemocratic governance because of rapid economic growth [@ChenDickson2008]. On the other hand, economic growth does not unilaterally increase political support. @Huntington2008 made the famous argument that rapid economic growth often comes with dramatically changes of society, which brings about regime instability. With respect to the China case, economic growth brings about noticeable gaps between the rich and poor, government officials and the common citizens. Many Chinese citizens express their dissatisfaction of inequality, limited degrees of political rights and freedom of speech online [@King2013 @Mackinnon2011 @PanXu2015]. Protests on land reform and housing are not unusual titles in Chinese media [@Li2008 @Kennedy2010].
 
-According to Modernization theory (Lipset 1959, 1993), economic growth will foster urbanization, industrialization, increasing levels of education and income, and as a result it will increase political participation and demand for democracy. Although the mechanism is challenged by Przeworski and Limongi (1997), still there is a general pattern between economic modernization and democracy. Since economic development not only changed Chinese citizen's physical well-beings but also cognitive ideas, it is worthwhile to test the relation between economic development and political attitudes towards a nondemocratic government (Zhai 2015).
 
-On the other hand, retrospective evaluation theory holds that citizens value the economic performance of the government and vote accordingly (Lewis-Beck and Stegmaier 2000).  Although previous economic voting studies are based on democratic elections, there is no significant reason that citizens living in authoritarian countries would NOT value government performance. In fact, Lewis-beck et al. (2014) show that the vote-popularity function can be applied to nondemocratic settings like China. Therefore, instead of the negative relationship between economic development and demand for democracy; retrospective evaluation theory holds that good government performance will yield solid political support.
-
-
-??Two different sets of stories here: relative deprivation?? MLM
-
-???No need for this This project differs from the previous public opinion studies in that I incorporate provincial economic growth data into individual level surveys. Because there are significant variations of economic growth rates in different provinces, this allows me to test the two competing hypotheses simultaneously. Overall, this manuscript is trying to disentangle the relation between economic development and political attitudes in a nondemocratic environment.
+On one hand, China's rapid economic growth broadens the inter-class gaps. The GINI coefficient increases from 30 in 1980 to about 50 in 2010 [@Solt2009]. Scholars emphasize that income inequality is often the cause of regime transition. @Boix2003 for example, argues that income inequality increases the demand for redistribution of the poor, which is an important factor explaining democratization. On the other hand, economic growth also changes the urban-rular relations, industrizalization, and even the value systems. @Lipset1959 holds positive views about economic growth, arguing that the "by-product" of development like education, civil-society and pariticipation are the "prerequsites" of democracy. Since economic development not only changed Chinese citizen's physical well-beings but also cognitive ideas, it is worthwhile to test the relation between economic development and political attitudes towards a nondemocratic government [@Zhai2015].
 
 
-\nocite{Zhai2015,Lipset1993,Lipset1959,Lewis-Beck2000,Pan2015,Wallace2016}
-\nocite{WorldBank1,WorldBank2,Lewis-Becketal2014,Truex2014,Przeworski1997,Tsai2010,Meng2014,Huta2014}
-\nocite{Rabe-Heskethetal2005,Rabe-Heskethetal2004,Lorentzen2014,Wintrobe1998,Boix2003a}
+While the democratization literature holds a general positive link between development and democracy \footnote{some hold more nuanced arguments like \cite{Przeworski1997}}, studies on citizen-government relations in democratic contents show that voters value the economic performance of the government and vote accordingly [@Lewis-Beck2000]. Although previous economic voting studies are based on democratic elections, there is no particular reason that citizens living in authoritarian countries would NOT value government performance. In fact, @Lewis-Becketal2014 show that the vote-popularity function can be applied to nondemocratic settings like China. Therefore, instead of the negative relationship between economic development and demand for democracy; retrospective evaluation theory holds that good government performance will yield solid political support.
 
 
 
+
+\nocite{Wallace2016}
+\nocite{Truex2014,Tsai2010,Meng2014}
+\nocite{Lorentzen2014,Wintrobe1998}
+
+
+<!--Pan and Xu 2017 Forthcoming JOP:  -->
 
 
 
 
 # Theory and Hypotheses
+## Inequality
 
-## Modernization Theory
+
+
 
 Modernization theory holds that social-economic development includes a multi-stage process towards democracy. Accordingly, economic development will bring about higher levels of literacy, education, higher income and better living standards. It is argued that when people are economically better off, they will engage in many political activities and struggle for more political rights. This general pattern received some weak empirical support (such as Boix and Stokes 2003), but it has also been criticized for its unclear causal mechanism. Later Scholars refine modernization theory and propose two general causal mechanisms linking modernization and democratization together: through inequality and redistribution of wealth and through the transition of culture and values.
 
@@ -71,33 +70,32 @@ often comes with increasing gap of income inequality. And as a result of enlargi
 Therefore, we have:
 \nocite{Acemoglu2005}
 
-\begin{quotation}
-	Hypothesis 1 (Inequality): Rapid economic growth increases income gap, and consequently triggers people's demand for political democracy.
-\end{quotation}
+
+
+>	Hypothesis 1 (Inequality): Rapid economic growth increases income gap, and consequently triggers people's demand for political democracy.
+
+
+
+## Education and critical capacities
 
 Cultural explanations of modernization theory focus on the changes in the social and cultural realms. It argues that modernization process enhances people's cognitive ability and critical thinking. Besides, the dramatic social-economic changes may influence previous value systems as well (Welzel et al. 2003). This explanation received support in political behavior and political psychology studies (e.g. Geddes and Zaller 1989, Zaller 1992, Truex 2014). With respect to the China case, Scholars also found empirical support for the Changing pattern of Chinese value system and ideology (Pan and Xu 2015, Yang and Tang 2010, Zhong and Chen 2013). Since authoritarian rules highlights obedience and respect to authority, it is inherently incompatible with critical thinking and self-expression values. A natural consequence is that people who think critically tend to be dissatisfied with authoritarian ruling:
 
-\begin{quotation}
-	Hypothesis 2 (Critical Thinking): Modernization process increases citizens' ability of thinking critically (about politics), consequently they will demand more political rights and higher levels of liberty.
-\end{quotation}
-\nocite{Kuznets1955,Welzeletal2003}
-\nocite{Acemoglu2005,Boix2003}
+
+>	Hypothesis 2 (Critical Thinking): Modernization process increases citizens' ability of thinking critically (about politics), consequently they will demand more political rights and higher levels of liberty.
 
 
-\subsection{`Economic Voting' Theory}
+
+
+## Retrospective Evaluation
+
 Unlike modernization theory which depicts the path to democracy as a unidimensional route, "economic voting" literature model political support as a function of government performance, especially on economic and social issues (Lewis-Beck and Stegmaier 2000). Although citizens in a authoritarian country do not vote the way in democracies, they can express their opinions in informal ways. For instance, in a village-level field Lily Tsai identifies that accountability exists in rural China (Tsai 2007). Therefore, a natural hypothesis is that people who highly evaluate government performance in socio-economic issues tend to support the incumbent elites. Unfortunately, the data structure I have does not contain important questions on socio-tropic evaluation; nevertheless, the CGSS 2003 survey includes related questions on `pocket book' voting, respondents were asked to compare their income and living condition to 3 years ago/5 years ago and 10 years ago, as well as prospective evaluation (compare with what it may be 3 years/5 year/10 years later). Consequently we have the following two hypotheses:
 
+> Hypothesis 3 (Retrospective Evaluation): Citizens whose economic condition increased/decreased over the past years tend to support incumbent governance/political reforms
+
+> Hypothesis 4 (Prospective Evaluation): Citizens who expect their economic condition will increase/decrease in the future years tend to support incumbent governance/political reforms
 
 
-<!--This doesn't seem relevant.-->
 
-\begin{quotation}
-	Hypothesis 3 (Retrospective Evaluation): Citizens whose economic condition increased/decreased over the past years tend to support incumbent governance/political reforms
-\end{quotation}
-
-\begin{quotation}
-	Hypothesis 4 (Prospective Evaluation): Citizens who expect their economic condition will increase/decrease in the future years tend to support incumbent governance/political reforms
-\end{quotation}
 
 Overall, I highlight four possible mechanisms linking economic development with political support.
 <!--Modernization hypothesis is developed exclusively in explaining regime transitions. -->
@@ -111,6 +109,110 @@ On the other hand, `Economic Voting' literature comes from experiences in Wester
 
 # Data
 
+Data in this study comes from two sources: provincial level economic growth data is collected from China Compendium of Statistics (1950-2009), Figure \ref{growth} shows the average provincial level growth rate from year 2001 to year 2005. As shown in the map, there are noticeable provincial level variations in economic growth. In general, coastal provinces tend to grow faster than inner provinces. Inner Mongolia and Shanxi Province also have a high GDP growth rate, however these provinces heavily rely on their natural resources.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{growth}
+	\caption{\label{growth} Provincial Level Average GDP Growth Rate, 2001-2005}
+\end{figure}	
+
+
 Individual level data is from the 2006 China General Social Survey (CGSS). CGSS is a annual/biannual survey of China's urban and rural households and it started at 2003. Comparing with other surveys such as China Value 
 and Ethnic Survey (featured in Yang and Tang 2010) and World Value Survey, CGSS comes with a more representative sample and much larger observations. The survey was administered by Renmin University and other regional institutions in China. In 2006, the survey was conducted between September and November, 10151 households in 28 provinces (out of 31) were interviewed. Although this survey did not focus on citizens' political opinion, it nevertheless provide questions directly and indirectly reflecting people's political preferences (Jiang and Yang 2015). Response rate in the 2006 survey was about 51.10% and the missing value rate was about 3.41%.
 
+## Dependent Variable
+I use two different dependent variables in this manuscript to measure trust in government and demand for democracy. CGSS 2006 asks many related questions on politics, governance and political reform. With respect to political trust, CGSS asks respondents to rate the credibility of government official announcements based on the following question setting:
+
+
+>	To what degree do you trust government reports/announcements on: housing; stock market; employment situation for college graduates; corruption; income inequality; domestic security; deaths in mining industry; deaths in earthquake
+
+
+Ratings range from "Not trust at all" to "completely trust". I reversed the coding scale to make it positively related to trust in government. 
+Since this question ask people's attitude towards government, one concern is that people may perform self-censorship and hide their responses (Lozenren 2014, Jiang and Yang 2015). While there is no sufficient mechanism to tease out the 'inflated' support for government, the unresponsive rates of these questions are as low as 1%. Self-censorship and social desirability bias is a real challenge in conducting opinion research in nondemocracies. Scholars point out that citizens tend to fake their preferences to escape from potential punishment (Wintrobe 1998, Li 2008). In an extreme condition when everyone hides his true ideas, we may observe uniformly high levels of political trust and political support. Fortunately the responses of trust question have a good amount of variation. Since we assume the survey data on political trust will be inflated, statistically it will show less variations of dependent variable and make it less likely to display statistically significant patterns. In other words, if we can detect significant results when dependent variable is inflated, our results should be robust under 'true' conditions. The raw distributions of responses on government trust are shown in Figure \@ref(Trust):
+
+
+ \begin{figure}
+ 	\centering
+ 	\subfigure[Housing]{\label{fig:a}\includegraphics[width=80mm]{TrustGov1}}
+ 	\subfigure[Stock Market]{\label{fig:b}\includegraphics[width=80mm]{TrustGov2}}
+ 	\subfigure[Corruption]{\label{fig:c}\includegraphics[width=80mm]{TrustGov3}}
+ 	\subfigure[Inequality]{\label{fig:ba}\includegraphics[width=80mm]{TrustGov4}}
+ 	\subfigure[Employment]{\label{fig:bb}\includegraphics[width=80mm]{TrustGov5}}
+ 	\subfigure[Security]{\label{fig:bc}\includegraphics[width=80mm]{TrustGov6}}
+ 	%\caption{Distribution of Trust in Government}
+ \end{figure}
+
+
+\begin{figure}
+	\centering
+		\subfigure[Mining Accident]{\label{fig:bd}\includegraphics[width=80mm]{TrustGov7}}
+		\subfigure[Earthquake]{\label{fig:be}\includegraphics[width=80mm]{TrustGov8}}
+		\caption{\label{Trust} Distribution of Trust in Government
+		(Continued)}
+\end{figure}
+
+
+## Independent Variable
+The main independent variables in this study is economic growth, critical thinking ability and economic evaluation. Economic growth is models as provincial-level average GDP growth rate before 2006 (which is the survey year), I calculated 3-year average, 5-year average and 10-year average respectively. This is the level-2 data in my analysis, and based on modernization theory, we should have the following two paths:
+
+*	Path 1: Economic growth $\Rightarrow$ Increased Income Inequality $\Rightarrow$ less support for the CCP government and demand for democracy 
+*	Path 2: Economic growth $\Rightarrow$ Ability to Think Critically $\Rightarrow$ less support for the CCP government and demand for democracy 
+
+
+
+Income inequality is based on the following question:
+
+>	What do you think of the tension between the rich and the poor: very serious; serious; not that much; no conflict at all.
+
+The basic distribution is shown in Figure \ref{rich}
+
+\begin{figure}+
+	\centering
+	\includegraphics[width=90mm]{rich_poor}
+	\caption{\label{rich} Tension Between the Rich and Poor}
+\end{figure}
+
+Critical Thinking is based on the following 3 questions, distributions are shown in Figure \ref{Critical}.
+
+
+1. It is always good to follow the government decisions (range from strongly agree to strongly disagree)
+2. Law should be based on government decisions (range from strongly agree to strongly disagree)
+3.  Politics is too complicated that I cannot understand (range from strongly agree to strongly disagree)
+
+
+
+\begin{figure}
+	\centering
+	\subfigure[Following Government]{\includegraphics[width=80mm]{cri_gov}}
+	\subfigure[Government Over Law]{\includegraphics[width=80mm]{law_gov}}
+	\subfigure[Politics Complicated]{\includegraphics[width=80mm]{poli_interest}}
+	\caption{\label{Critical} Distribution of Critical Thinking Components}
+\end{figure}
+
+
+	
+I model economic evaluation on retrospective evaluation and prospective evaluation. Retrospective evaluation is based on the following questions from CGSS 2006:
+
+>	Compare to 3 years ago, your income/asset/position/working condition/social class has: increased/no changes/decreased
+
+Prospective self-evaluation is based on similar questions but respondents were asked about their expectations in the future.
+
+>	What is your expectation of your income/asset/position/working condition/social class after 3 years: increase/no changes/decrease
+
+According to retrospective evaluation theory, we will have the following patterns:
+
+
+* Positive retrospective evaluation is related to positive attitude towards government and less demand for democracy.
+* Negative retrospective evaluation is related to negative attitude towards government and more demand for democracy.
+* Positive Prospective evaluation is related to positive attitude towards government and less demand for democracy.
+* Negative Prospective evaluation is related to negative attitude towards government and more demand for democracy.
+
+
+I also include other demographic variables like CCP party membership, gender, age, household income and education.
+
+
+
+
+\newpage
