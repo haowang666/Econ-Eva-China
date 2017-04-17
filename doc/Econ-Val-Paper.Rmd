@@ -47,9 +47,8 @@ While the democratization literature holds a general positive link between devel
 
 
 
-\nocite{Wallace2016}
-\nocite{Truex2014,Tsai2010,Meng2014}
-\nocite{Lorentzen2014,Wintrobe1998}
+
+\nocite{Tsai2010,Meng2014}
 
 
 <!--Pan and Xu 2017 Forthcoming JOP:  -->
@@ -58,52 +57,41 @@ While the democratization literature holds a general positive link between devel
 
 
 # Theory and Hypotheses
+
+Modernization theory holds that social-economic development includes a multi-stage process towards democracy. Accordingly, economic development will bring about higher levels of literacy, education, higher income and better living standards. It is argued that when people are economically better off, they will engage in many political activities and struggle for more political rights. This general pattern received some moderate empirical support (such as @BoixStokes2003), but it has also been criticized for its unclear causal mechanism. Later Scholars refine modernization theory and propose two general causal mechanisms linking modernization and democratization together: through inequality and redistribution of wealth and through the transition of culture and values [@Welzeletal2003].
+
+
 ## Inequality
 
+Inequality is one of the key explanatory variables that drive regime transitions.
+In the elite-citizen game-theory model, inequality plays the pivotal role in determining the potential probability of democratic transition [@Acemoglu2005  @Boix2003]. @Boix2003 argues that high inequality levels will increase citizens' dissatisfaction on government and increase demand for political reform. Consequently, increasing level income inequality will lead to higher demand for political reform and income redistribution in nondemocratic regimes. China's economic boom comes with sharp rise of income gaps. While the overall income of average citizens increased over the last several decades, the gaps between the rich and the poor also enlarged. In the individual level, this can be interpreted as the expected income distance between myself and the rich. Therefore my first hypothesis is:
 
 
-
-Modernization theory holds that social-economic development includes a multi-stage process towards democracy. Accordingly, economic development will bring about higher levels of literacy, education, higher income and better living standards. It is argued that when people are economically better off, they will engage in many political activities and struggle for more political rights. This general pattern received some weak empirical support (such as Boix and Stokes 2003), but it has also been criticized for its unclear causal mechanism. Later Scholars refine modernization theory and propose two general causal mechanisms linking modernization and democratization together: through inequality and redistribution of wealth and through the transition of culture and values.
-
-In the elite-citizen game-theory model, inequality plays the pivotal role in determining the potential probability of democratic transition (Acemoglu and Robinson 2005. Boix 2003). Boix (2003) argues that high inequality levels will increase citizens' dissatisfaction on government and increase demand for political reform. According to Kuznets (1955), rapid economic growth
-often comes with increasing gap of income inequality. And as a result of enlarging income inequality, people will demand political reform and redistribution. 
-Therefore, we have:
-\nocite{Acemoglu2005}
-
-
-
->	Hypothesis 1 (Inequality): Rapid economic growth increases income gap, and consequently triggers people's demand for political democracy.
+>	Hypothesis 1 (Inequality): Income inequality leads to less support for the government and higher demand for democracy.
 
 
 
 ## Education and critical capacities
 
-Cultural explanations of modernization theory focus on the changes in the social and cultural realms. It argues that modernization process enhances people's cognitive ability and critical thinking. Besides, the dramatic social-economic changes may influence previous value systems as well (Welzel et al. 2003). This explanation received support in political behavior and political psychology studies (e.g. Geddes and Zaller 1989, Zaller 1992, Truex 2014). With respect to the China case, Scholars also found empirical support for the Changing pattern of Chinese value system and ideology (Pan and Xu 2015, Yang and Tang 2010, Zhong and Chen 2013). Since authoritarian rules highlights obedience and respect to authority, it is inherently incompatible with critical thinking and self-expression values. A natural consequence is that people who think critically tend to be dissatisfied with authoritarian ruling:
+Cultural explanations of modernization theory focus on the changes in the social and cultural realms. It argues that modernization process enhances people's cognitive ability and critical thinking. Besides, the dramatic social-economic changes may influence previous value systems as well [@Welzeletal2003]. This explanation received support in political behavior and political psychology studies e.g. [@GeddesZaller1989 @Truex2014]. A study on Zimbabwe shows that education may decrease political participation in the authoritarian environment due to the increase of cognitive capacities [@Crokeetal2016]. Overall, they argue that educated citizens experience better economic outcomes, are more interested in politics, and are more supportive of democracy, but are also more likely to criticize the government and support opposition parties. With respect to the China case, Scholars also found empirical support for the changing pattern of Chinese value system and ideology [@PanXu2015 @YangTang2010]. Since authoritarian rules highlights obedience and respect to authority, it is inherently incompatible with critical thinking and self-expression values. A natural consequence is that people who think critically tend to be dissatisfied with authoritarian ruling:
 
+> Hypotehsis 2a: People with higher education tend to think more critically about the government.
 
->	Hypothesis 2 (Critical Thinking): Modernization process increases citizens' ability of thinking critically (about politics), consequently they will demand more political rights and higher levels of liberty.
+>	Hypothesis 2b: People who think critically about the government demand political reform and democratization.
 
 
 
 
 ## Retrospective Evaluation
 
-Unlike modernization theory which depicts the path to democracy as a unidimensional route, "economic voting" literature model political support as a function of government performance, especially on economic and social issues (Lewis-Beck and Stegmaier 2000). Although citizens in a authoritarian country do not vote the way in democracies, they can express their opinions in informal ways. For instance, in a village-level field Lily Tsai identifies that accountability exists in rural China (Tsai 2007). Therefore, a natural hypothesis is that people who highly evaluate government performance in socio-economic issues tend to support the incumbent elites. Unfortunately, the data structure I have does not contain important questions on socio-tropic evaluation; nevertheless, the CGSS 2003 survey includes related questions on `pocket book' voting, respondents were asked to compare their income and living condition to 3 years ago/5 years ago and 10 years ago, as well as prospective evaluation (compare with what it may be 3 years/5 year/10 years later). Consequently we have the following two hypotheses:
 
-> Hypothesis 3 (Retrospective Evaluation): Citizens whose economic condition increased/decreased over the past years tend to support incumbent governance/political reforms
+In the retrospective evaluation model, citizens hold government accountable through their (economic) performance. "Economic voting" literature models political support as a function of government performance, especially on economic and social issues [@Anderson2000]. Although citizens in a authoritarian country do not vote the way in democracies, they can express their opinions in informal ways. For instance, in a village-level field Lily Tsai identifies that accountability exists in rural China [@Tsai2007]. Therefore, a natural hypothesis is that people who highly evaluate government performance in socio-economic issues tend to support the incumbent elites. 
+Unfortunately, the data structure does not contain important questions on socio-tropic evaluation; nevertheless, the CGSS 2006 survey includes related questions on 'pocket book' voting, respondents were asked to compare their income and living condition to 3 years ago/5 years ago and 10 years ago, as well as prospective evaluation (compare with what it may be 3 years/5 year/10 years later). Consequently we have the following two hypotheses:
 
-> Hypothesis 4 (Prospective Evaluation): Citizens who expect their economic condition will increase/decrease in the future years tend to support incumbent governance/political reforms
+> Hypothesis 3a (Retrospective Evaluation): Citizens whose economic condition increased/decreased over the past years tend to support incumbent governance/political reforms
 
+> Hypothesis 3b (Prospective Evaluation): Citizens who expect their economic condition will increase/decrease in the future years tend to support incumbent governance/political reforms
 
-
-
-Overall, I highlight four possible mechanisms linking economic development with political support.
-<!--Modernization hypothesis is developed exclusively in explaining regime transitions. -->
-On the other hand, `Economic Voting' literature comes from experiences in Western democracies.
- According to Przeworski and Limongi (1997), China should be in transition to democracy as it has passed the "transition bar" of $4000. However, China seems to be a stable autocracy now and since CCP is in control of the military, a coup is unlikely. On the other hand, one might doubt the applicability of "Economic Voting" theory in a nondemocratic context: can authoritarian leaders generate political support by rapid economic development? This study provides a test for both theories based on survey data in China as well as provincial level economic growth indicators.
-  
-
-\nocite{Tsai2007a}
 
 
 
@@ -120,7 +108,7 @@ Data in this study comes from two sources: provincial level economic growth data
 
 
 Individual level data is from the 2006 China General Social Survey (CGSS). CGSS is a annual/biannual survey of China's urban and rural households and it started at 2003. Comparing with other surveys such as China Value 
-and Ethnic Survey (featured in Yang and Tang 2010) and World Value Survey, CGSS comes with a more representative sample and much larger observations. The survey was administered by Renmin University and other regional institutions in China. In 2006, the survey was conducted between September and November, 10151 households in 28 provinces (out of 31) were interviewed. Although this survey did not focus on citizens' political opinion, it nevertheless provide questions directly and indirectly reflecting people's political preferences (Jiang and Yang 2015). Response rate in the 2006 survey was about 51.10% and the missing value rate was about 3.41%.
+and Ethnic Survey (featured in @YangTang2010) and World Value Survey, CGSS comes with a more representative sample and much larger observations. The survey was administered by Renmin University and other regional institutions in China. In 2006, the survey was conducted between September and November, 10151 households in 28 provinces (out of 31) were interviewed. Although this survey did not focus on citizens' political opinion, it nevertheless provide questions directly and indirectly reflecting people's political preferences [@JiangYang2015]. Response rate in the 2006 survey was about 51.10% and the missing value rate was about 3.41%.
 
 ## Dependent Variable
 I use two different dependent variables in this manuscript to measure trust in government and demand for democracy. CGSS 2006 asks many related questions on politics, governance and political reform. With respect to political trust, CGSS asks respondents to rate the credibility of government official announcements based on the following question setting:
@@ -130,7 +118,7 @@ I use two different dependent variables in this manuscript to measure trust in g
 
 
 Ratings range from "Not trust at all" to "completely trust". I reversed the coding scale to make it positively related to trust in government. 
-Since this question ask people's attitude towards government, one concern is that people may perform self-censorship and hide their responses (Lozenren 2014, Jiang and Yang 2015). While there is no sufficient mechanism to tease out the 'inflated' support for government, the unresponsive rates of these questions are as low as 1%. Self-censorship and social desirability bias is a real challenge in conducting opinion research in nondemocracies. Scholars point out that citizens tend to fake their preferences to escape from potential punishment (Wintrobe 1998, Li 2008). In an extreme condition when everyone hides his true ideas, we may observe uniformly high levels of political trust and political support. Fortunately the responses of trust question have a good amount of variation. Since we assume the survey data on political trust will be inflated, statistically it will show less variations of dependent variable and make it less likely to display statistically significant patterns. In other words, if we can detect significant results when dependent variable is inflated, our results should be robust under 'true' conditions. The raw distributions of responses on government trust are shown in Figure \@ref(Trust):
+Since this question ask people's attitude towards government, one concern is that people may perform self-censorship and hide their responses [@Lorentzen2014 @JiangYang2015]. While there is no sufficient mechanism to tease out the 'inflated' support for government, the unresponsive rates of these questions are as low as 1%. Self-censorship and social desirability bias is a real challenge in conducting opinion research in nondemocracies. Scholars point out that citizens tend to fake their preferences to escape from potential punishment [@Wintrobe1998]. In an extreme condition when everyone hides his true ideas, we may observe uniformly high levels of political trust and political support. Fortunately the responses of trust question have a good amount of variation. Since we assume the survey data on political trust will be inflated, statistically it will show less variations of dependent variable and make it less likely to display statistically significant patterns. In other words, if we can detect significant results when dependent variable is inflated, our results should be robust under 'true' conditions. The raw distributions of responses on government trust are shown in Figure \@ref(Trust):
 
 
  \begin{figure}
@@ -201,13 +189,6 @@ Prospective self-evaluation is based on similar questions but respondents were a
 
 >	What is your expectation of your income/asset/position/working condition/social class after 3 years: increase/no changes/decrease
 
-According to retrospective evaluation theory, we will have the following patterns:
-
-
-* Positive retrospective evaluation is related to positive attitude towards government and less demand for democracy.
-* Negative retrospective evaluation is related to negative attitude towards government and more demand for democracy.
-* Positive Prospective evaluation is related to positive attitude towards government and less demand for democracy.
-* Negative Prospective evaluation is related to negative attitude towards government and more demand for democracy.
 
 
 I also include other demographic variables like CCP party membership, gender, age, household income and education.
